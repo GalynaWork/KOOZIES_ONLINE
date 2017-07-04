@@ -422,9 +422,14 @@ footer {
 /***end hamburger(mob_menu)***/
 
 /***end main.html****/
-.carousel.slide {
-  height: 100%
+
+@media screen and (max-width:1000px) and (-ms-high-contrast:active), all and (max-width:1000px) and (-ms-high-contrast:none){
+  .carousel.slide {
+      height: 100%;
 }
+}
+.header_menu .tel p a,.footer_menu .tel a{color:#000}
+
 
 /****working.html****/
 .working {
